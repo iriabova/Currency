@@ -1,0 +1,5 @@
+pageObjects\CurrencyObject.class
+com\bdd\myProject\Base.class
+pageObjects\TekSchoolObject.class
+utilities\Utility.class
+pageObjects\LoginPageObject.class

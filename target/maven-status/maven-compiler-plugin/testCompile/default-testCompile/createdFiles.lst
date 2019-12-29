@@ -1,0 +1,5 @@
+com\bdd\myProject\AppTest.class
+StepDefenition\TekSchoolScenariosStepDefinitions.class
+StepDefenition\LoginStepDefinition.class
+runner\TestRunner.class
+StepDefenition\Initializer.class
