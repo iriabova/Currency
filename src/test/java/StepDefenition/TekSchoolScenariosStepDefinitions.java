@@ -11,7 +11,8 @@ import pageObjects.TekSchoolObject;
 import utilities.Utility;
 
 public class TekSchoolScenariosStepDefinitions extends Base {
-	// just fot git practise comment
+	// just for git practice comment
+	//one more practice to myself this is to push to git hub repo
 	//my second comment to be pulled from remote repo
 	TekSchoolObject tekSchoolScenariosPageObject=new TekSchoolObject();
 	

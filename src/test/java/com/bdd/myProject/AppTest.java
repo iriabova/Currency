@@ -19,7 +19,7 @@ public class AppTest
     {
         super( testName );
     }
-
+    // another comment to see text changes on commit
     /**
      * @return the suite of tests being tested
      */
