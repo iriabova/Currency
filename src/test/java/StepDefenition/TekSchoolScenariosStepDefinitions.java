@@ -11,7 +11,7 @@ import pageObjects.TekSchoolObject;
 import utilities.Utility;
 
 public class TekSchoolScenariosStepDefinitions extends Base {
-	
+	// just fot git practise comment
 	TekSchoolObject tekSchoolScenariosPageObject=new TekSchoolObject();
 	
 	@When("^User click on my account menu on top of the page$")

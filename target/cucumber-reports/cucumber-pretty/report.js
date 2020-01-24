@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4243032700,
+  "duration": 5021767400,
   "status": "passed"
 });
 formatter.background({
@@ -67,35 +67,35 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_TekSchool_page()"
 });
 formatter.result({
-  "duration": 3634638200,
+  "duration": 4136368900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_Click_on_Test_Environment_link()"
 });
 formatter.result({
-  "duration": 2071605100,
+  "duration": 1399103200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_see_Test_Environment_page()"
 });
 formatter.result({
-  "duration": 18686600,
+  "duration": 10481100,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_click_on_my_account_menu_on_top_of_the_page()"
 });
 formatter.result({
-  "duration": 547657000,
+  "duration": 555894400,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_on_my_account_menu()"
 });
 formatter.result({
-  "duration": 395117100,
+  "duration": 300820000,
   "status": "passed"
 });
 formatter.match({
@@ -112,21 +112,21 @@ formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_enter_username_username_and_password_password_in_returning_menu(String,String)"
 });
 formatter.result({
-  "duration": 245718800,
+  "duration": 246451700,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 982518900,
+  "duration": 902051600,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_should_be_logged_in()"
 });
 formatter.result({
-  "duration": 447814200,
+  "duration": 382822700,
   "status": "passed"
 });
 formatter.scenario({
@@ -210,103 +210,108 @@ formatter.step({
 });
 formatter.step({
   "line": 31,
-  "name": "User enter username \u0027teststudent@gmail.com\u0027 and password \u0027Tek@Test.com\u0027 in returning menu1",
+  "name": "User enter username \u0027teststudent@gmail.com\u0027 and password \u0027Tek@Test.com\u0027 in returning menu",
   "keyword": "And "
 });
 formatter.step({
   "line": 32,
-  "name": "User click on login button1",
+  "name": "User click on login button",
   "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "User should be logged in",
+  "keyword": "Then "
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_ckics_on_currensy_tap_on_the_lefy_top_of_the_page()"
 });
 formatter.result({
-  "duration": 72053800,
+  "duration": 53233000,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.tree_currensies_are_displayed()"
 });
 formatter.result({
-  "duration": 24100,
+  "duration": 13800,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_can_click_on_different_currency()"
 });
 formatter.result({
-  "duration": 427032300,
+  "duration": 411710100,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.choosen_currency_is_displayed_under_the_products()"
 });
 formatter.result({
-  "duration": 369015000,
+  "duration": 349619800,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_clicks_on_phones_and_PDAs()"
 });
 formatter.result({
-  "duration": 594486800,
+  "duration": 567996000,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_clicks_on_spesific_pruduct()"
 });
 formatter.result({
-  "duration": 1418987900,
+  "duration": 2135774100,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_should_see_the_chosen_currency_is_displayed_on_the_product_ditails_page()"
 });
 formatter.result({
-  "duration": 412407900,
+  "duration": 370005100,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_clicks_on_Add_to_Cart_Button()"
 });
 formatter.result({
-  "duration": 76492600,
+  "duration": 87420900,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_sees_the_chesen_currensy_is_displayed()"
 });
 formatter.result({
-  "duration": 375450400,
+  "duration": 370182900,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_clicks_on_my_account_Button()"
 });
 formatter.result({
-  "duration": 67541900,
+  "duration": 47786900,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_clicks_on_log_out_Button()"
 });
 formatter.result({
-  "duration": 486100000,
+  "duration": 442540900,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_clicks_on_my_account_menu()"
 });
 formatter.result({
-  "duration": 67804400,
+  "duration": 71351600,
   "status": "passed"
 });
 formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_on_my_account_menu1()"
 });
 formatter.result({
-  "duration": 283389100,
+  "duration": 306682800,
   "status": "passed"
 });
 formatter.match({
@@ -320,21 +325,28 @@ formatter.match({
       "offset": 58
     }
   ],
-  "location": "TekSchoolScenariosStepDefinitions.user_enter_username_username_and_password_password_in_returning_menu1(String,String)"
+  "location": "TekSchoolScenariosStepDefinitions.user_enter_username_username_and_password_password_in_returning_menu(String,String)"
 });
 formatter.result({
-  "duration": 213966200,
+  "duration": 203042700,
   "status": "passed"
 });
 formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_button1()"
+  "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 845403400,
+  "duration": 803669000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TekSchoolScenariosStepDefinitions.user_should_be_logged_in()"
+});
+formatter.result({
+  "duration": 393901900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 716197800,
+  "duration": 663204000,
   "status": "passed"
 });
 });

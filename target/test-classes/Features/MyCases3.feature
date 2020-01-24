@@ -28,6 +28,10 @@ And User clicks on my account Button
 Then User clicks on log out Button
 And user clicks on my account menu
 And User click on login on my account menu1
-And User enter username 'teststudent@gmail.com' and password 'Tek@Test.com' in returning menu1
-And User click on login button1
+And User enter username 'teststudent@gmail.com' and password 'Tek@Test.com' in returning menu
+And User click on login button
+Then User should be logged in
+#And User enter username 'teststudent@gmail.com' and password 'Tek@Test.com' in returning menu1
+#And User click on login button1
 #And User see the same currency is saved
+
