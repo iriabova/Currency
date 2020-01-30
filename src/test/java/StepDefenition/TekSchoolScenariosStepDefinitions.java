@@ -14,6 +14,9 @@ public class TekSchoolScenariosStepDefinitions extends Base {
 	// just for git practice comment
 	//one more practice to myself this is to push to git hub repo
 	//my second comment to be pulled from remote repo
+	//////////////////////////////////////////////////
+	//my last practise to see the pull step
+	//////////////////////////////////////////////////
 	TekSchoolObject tekSchoolScenariosPageObject=new TekSchoolObject();
 	
 	@When("^User click on my account menu on top of the page$")
