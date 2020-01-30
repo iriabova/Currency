@@ -12,6 +12,7 @@ import utilities.Utility;
 
 public class TekSchoolScenariosStepDefinitions extends Base {
 	// just fot git practise comment
+	//my second comment to be pulled from remote repo
 	TekSchoolObject tekSchoolScenariosPageObject=new TekSchoolObject();
 	
 	@When("^User click on my account menu on top of the page$")
