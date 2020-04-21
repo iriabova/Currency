@@ -1,3 +1,4 @@
+@ExapleTag
 Feature: Tek School Scenarios
 
 Background: 
