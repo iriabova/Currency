@@ -3,6 +3,7 @@ package pageObjects;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,10 +24,16 @@ public class LoginPageObject extends Base {
 	
 	
 	
-	public void clickOnTestEnvironmentLink() {
+	    public void clickOnTestEnvironmentLink() {
 		
 		
-		testEnvironmentLink.click();
+		//testEnvironmentLink.click();
+	    	
+	    	try {
+	    		testEnvironmentLink.click();
+	   	}catch(ElementNotInteractableException e) {
+	   		testEnvironmentLink.sendKeys(Keys.ENTER);
+	   	}
 		
 		
 		   Set<String> WindowHandels = driver.getWindowHandles();
